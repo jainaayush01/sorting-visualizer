@@ -1,0 +1,48 @@
+body {
+    margin: 0 auto;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    /* border: 2px solid chartreuse; */
+}
+
+.btn {
+    float: right;
+    padding: 5px;
+    margin: 10px 10px;
+    background-color: black;
+    color: cyan;
+    border-color: cyan;
+    border-radius: 5px;
+}
+
+.new-array {
+    float: left;
+    border-color: magenta;
+    color: magenta;
+}
+
+#bars {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 100px 40px;
+    height: 500px;
+    /* background-color: white; */
+    justify-content: space-evenly;
+
+    align-items: flex-start;
+}
+
+.bar {
+    background-color: rgb(134, 134, 134);
+    width: 40px;
+    transition: 0.2s all ease;
+}
+
+span {
+    color: white;
+}

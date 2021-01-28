@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualiser</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+    <h1>Sorting Visualiser</h1>
+    <div class="nav-bar">
+        <button type = "button" id="array" class="btn btn-dark new-array" >New Array</button>
+        <button type = "button" class="btn btn-dark insertion-sort">Insertion Sort</button>
+        <button type = "button" class="btn btn-dark bubble-sort">Bubble Sort</button>
+        <button type = "button" class="btn btn-dark quick-sort">Quick Sort</button>
+        <button type = "button" class="btn btn-dark selection-sort">Selection Sort</button>
+    </div>
+
+    <div id="bars">
+    </div>
+    <script src="./src/create-array.js"></script>
+    <script src="./src/Algorithms/algo-help.js"></script>
+    <script src="./src/Algorithms/insertion-sort.js"></script>
+    <script src="./src/Algorithms/selection-sort.js"></script>
+    <script src="./src/Algorithms/quick-sort.js"></script>
+    <script src="./src/Algorithms/bubble-sort.js"></script>
+    <script src="./src/script.js"></script>
+</body>
+</html>
